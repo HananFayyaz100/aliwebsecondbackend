@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const upload = require("../middleware/ToolUpload");
+const upload = require("../middleware/Toolupload");
 const ctrl = require("../controllers/Toolcontroller");
 
 // Apna existing auth middleware yahan import karein, e.g.:

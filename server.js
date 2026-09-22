@@ -23,7 +23,7 @@ app.use(
 );
 
 app.use(express.json());
-app.use("/uploads", express.static("uploads"));   // agar pehle se hai to skip karein
+
 app.use("/api/reviews", require("./routes/reviewRoutes"));
 app.use("/api/tools", require("./routes/Toolroutes"));
 /*
